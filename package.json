@@ -1,0 +1,12 @@
+{
+  "name": "chrometabs",
+  "version": "1.0.0",
+  "description": "Simple Tab Management",
+  "main": "index.js",
+  "repository": "https://github.com/gabrielfalcao/chrometabs",
+  "author": "Gabriel Falcao",
+  "license": "MIT",
+  "dependencies": {
+    "semantic-ui-css": "^2.2.10"
+  }
+}

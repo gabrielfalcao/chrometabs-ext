@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="node_modules/semantic-ui-css/semantic.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <title>Chrome Tabs App</title>
+    <style>
+     #tablist {
+       background: #222;
+       color: #eee;
+       font-family: Menlo, Monaco, monospace;
+       min-width: 400px;
+       min-height: 100px;
+       border: none;
+       margin:0px;
+       padding:0px;
+     }
+     #summary {
+       font-size: 10px;
+       background: #222;
+       color: #eee;
+       font-family: Menlo, Monaco, monospace;
+       border: none;
+       margin:0px;
+       padding:0px;
+     }
+
+    </style>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <textarea id="tablist" cols="180" rows="10" class="ui input focus"></textarea>
+    <p id="summary"></p>
+    <div class="ui two mini buttons">
+      <button class="ui mini button teal" id="copy-to-clipboard"><i class="copy icon"></i>Copy to Clipboard</button>
+      <div class="or"></div>
+      <button class="ui mini button pink" id="paste-to-clipboard"><i class="paste icon"></i>Import from Clipboard</button>
+    </div>
+  </body>
+</html>
